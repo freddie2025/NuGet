@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>FredCo.Helpers</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>FredCo.HelperLibrary</PackageId>
+    <Authors>Fred James</Authors>
+    <Company>Fred Co</Company>
+    <Product>Fred Co Helper Library</Product>
+    <Description>This is my description of my helper library.</Description>
+    <Copyright>2020</Copyright>
+    <PackageProjectUrl>https://fredjames.co.uk</PackageProjectUrl>
+    <PackageTags>FredJames Calculations Helpers</PackageTags>
+    <PackageReleaseNotes>This is the initial release</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/freddie2025/NuGet</RepositoryUrl>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </Content>
+  </ItemGroup>
+</Project>
